@@ -43,9 +43,6 @@ integrate_f <- function(a, b) {
 }
 
 
-# Compute V using integrate
-V_computed <- integrate(function(x) pi * logical_index_vectorized(x)^2, lower = 10, upper = 20)$value
-
 # Function to compute volume from 10 to b
 volume_to_b <- function(b) {
   integrate(function(x) pi * logical_index_vectorized(x)^2, lower = 10, upper = b)$value - 200
