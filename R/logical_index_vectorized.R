@@ -1,6 +1,6 @@
 #' Vectorize a Piecewise Function Using Logical Indexing
 #'
-#' This function applies a piecewise calculation to a numeric vector `x` using logical indexing. The function is defined for specific intervals of `x`, and different calculations are performed depending on which interval each element of `x` falls into.
+#' This function applies a piecewise calculation to a numeric vector `x` using logical indexing.
 #'
 #' @param x A numeric vector for which the piecewise function is to be applied.
 #'

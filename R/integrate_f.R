@@ -1,6 +1,6 @@
 #' Compute the Integral of a Vectorized Function
 #'
-#' This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from base R for numerical integration.
+#' This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from R.
 #'
 #' @param a The lower limit of the interval over which to integrate.
 #' @param b The upper limit of the interval over which to integrate.

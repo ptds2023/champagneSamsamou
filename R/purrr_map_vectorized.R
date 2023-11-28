@@ -1,8 +1,8 @@
 #' Vectorize a Function Using `purrr::map_dbl`
 #'
-#' This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `purrr::map_dbl` function. It is essential that `non_vectorized_function` is defined and takes a single numeric value as input.
+#' This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `purrr::map_dbl` function.`non_vectorized_function` must be defined and takes a single numeric value as input.
 #'
-#' @param x A numeric vector to which the `non_vectorized_function` will be applied element-wise.
+#' @param x A numeric vector to which the `non_vectorized_function` will be applied.
 #'
 #' @return A numeric vector where each element is the result of applying `non_vectorized_function` to the corresponding element of `x`.
 #'
