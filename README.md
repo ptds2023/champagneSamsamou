@@ -19,7 +19,7 @@ To install the latest version of champagneSamsamou from GitHub, use:
 
 ```r
 install.packages("devtools")
-devtools::install_github("Samsaou/champagneSamsamou")
+devtools::install_github("Samsamou/champagneSamsamou")
 ```
 
 
