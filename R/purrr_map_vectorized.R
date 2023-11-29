@@ -1,4 +1,5 @@
-#' Vectorize a Function Using `purrr::map_dbl`
+#' @title Vectorize a Function Using `purrr::map_dbl`
+#' @author Samy Maurer
 #'
 #' This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `purrr::map_dbl` function.`non_vectorized_function` must be defined and takes a single numeric value as input.
 #'

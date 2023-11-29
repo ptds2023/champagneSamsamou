@@ -1,4 +1,5 @@
-#' Compute the Integral of a Vectorized Function
+#' @title Computation of the integral of a Vectorized Function
+#' @author Samy Maurer
 #'
 #' This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from R.
 #'
@@ -11,7 +12,7 @@
 #' # Example: Compute the integral from 10 to 20
 #' result <- integrate_f(10, 20)
 #' print(result)
-#'
+#' @importFrom stats integrate
 #' @export
 integrate_f <- function(a, b) {
   integrate(logical_index_vectorized, lower = a, upper = b)$value

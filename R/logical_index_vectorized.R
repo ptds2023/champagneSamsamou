@@ -1,4 +1,5 @@
-#' Vectorize a Piecewise Function Using Logical Indexing
+#' @title Vectorize a Piecewise Function Using Logical Indexing
+#' @author Samy Maurer
 #'
 #' This function applies a piecewise calculation to a numeric vector `x` using logical indexing.
 #'

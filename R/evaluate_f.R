@@ -1,4 +1,5 @@
-#' Evaluate and Classify the Output of a Vectorized Function
+#' @title Evaluate and Classify the Output of a Vectorized Function
+#' @author Samy Maurer
 #'
 #' This function evaluates a vectorized version of a piecewise function on a numeric vector `x` and then sets a specific class, 'evaluation_of_f', to the output. It uses `logical_index_vectorized` to apply the piecewise function.
 #'
@@ -14,9 +15,7 @@
 #'
 #' @export
 evaluate_f <- function(x) {
-  # Evaluate the function for the input vector
   values <- logical_index_vectorized(x)
-  # Set the class of the result
   class(values) <- 'evaluation_of_f'
   return(values)
 }

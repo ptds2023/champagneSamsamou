@@ -1,4 +1,5 @@
-#' Vectorize a Function Using `sapply`
+#' @title Vectorize a Function Using `sapply`
+#' @author Samy Maurer
 #'
 #' This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `sapply` function. It is important that `non_vectorized_function` is defined and takes a single numeric value as input.
 #'

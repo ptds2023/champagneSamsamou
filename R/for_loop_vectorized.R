@@ -1,4 +1,5 @@
-#' Vectorized Function Using For Loop
+#' @title Vectorized Function Using For Loop
+#' @author Samy Maurer
 #'
 #' This function applies a non-vectorized function `non_vectorized_function` to each element of a vector `x` using a for loop, effectively vectorizing the operation.
 #'

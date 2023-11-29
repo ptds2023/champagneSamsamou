@@ -2,7 +2,7 @@
 % Please edit documentation in R/integrate_f.R
 \name{integrate_f}
 \alias{integrate_f}
-\title{Compute the Integral of a Vectorized Function}
+\title{Computation of the integral of a Vectorized Function}
 \usage{
 integrate_f(a, b)
 }
@@ -15,11 +15,15 @@ integrate_f(a, b)
 The computed integral value of the `logical_index_vectorized` function over the interval [a, b].
 }
 \description{
-This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from R.
+Computation of the integral of a Vectorized Function
 }
 \examples{
 # Example: Compute the integral from 10 to 20
 result <- integrate_f(10, 20)
 print(result)
+}
+\author{
+Samy Maurer
 
+This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from R.
 }

@@ -19,11 +19,16 @@ A numeric vector where each element is the result of the piecewise function appl
 - 0 for `x > 20`
 }
 \description{
-This function applies a piecewise calculation to a numeric vector `x` using logical indexing.
+Vectorize a Piecewise Function Using Logical Indexing
 }
 \examples{
 test_vector <- c(-1, 0.25, 5, 12, 16, 21)
 result <- logical_index_vectorized(test_vector)
 print(result)
 
+}
+\author{
+Samy Maurer
+
+This function applies a piecewise calculation to a numeric vector `x` using logical indexing.
 }
