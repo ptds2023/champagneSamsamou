@@ -2,8 +2,8 @@ Package: champagneSamsamou
 Type: Package
 Title: Champagne Volume Calculation and Party Planning
 Version: 0.1.0
-Author: Samy Maurer
-Maintainer: samy.maurer@unil.ch
+Author: Samy Maurer <samy.maurer@unil.ch>
+Maintainer: Samy Maurer <samy.maurer@unil.ch>
 Description: This package provides functions to calculate the volume of champagne in glasses using various vectorization methods and integration.
 License: GPL-3
 Encoding: UTF-8
