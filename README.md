@@ -15,13 +15,21 @@ Vectorization Functions: Utilize different R techniques to vectorize non-vectori
 Numerical Integration: Apply numerical integration methods to calculate volumes.
 
 ## Installation
-To install the latest version of champagneSamsamou from GitHub, use:
+To install champagneSamsamou, you need to have R installed on your machine. If you don't have R, you can download it from CRAN.
+
+Once R is installed, you can install `champagneSamsamou` from GitHub using the devtools package. If you don't have `devtools` installed, you can install it by running:
 
 ```r
 install.packages("devtools")
 devtools::install_github("Samsamou/champagneSamsamou")
 ```
+## Dependencies
+`champagneSamsamou` depends on the following R packages:
 
+- `purrr` for functional programming tools.
+- `stats` for statistical functions used in calculations.
+- 
+These dependencies should be automatically installed when you install `champagneSamsamou`.
 
 ## Usage
 Here's a basic example of how to use champagneSamsamou:
@@ -34,7 +42,22 @@ result <- for_loop_vectorized(1:10)
 
 # Calculate the volume for a specific glass size
 volume <- volume_to_b(15)
+```
 
+## Running Tests
+
+`champagneSamsamou` includes a series of automated tests to ensure the package functions as expected. To run these tests, you can use the testthat package. First, make sure you have `testthat` installed:
+
+```r
+install.packages("testthat")
+```
+Then, to run the tests, load `champagneSamsamou` and use the `test_package` function:
+
+```r
+library(testthat)
+library(champagneSamsamou)
+
+test_package("champagneSamsamou")
 ```
 
 # Contributing
