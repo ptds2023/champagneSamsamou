@@ -1,4 +1,5 @@
-#' Non-Vectorized Piecewise Function
+#' @title Non-Vectorized Piecewise Function
+#' @author Samy Maurer
 #'
 #' This function is a non-vectorized implementation of a piecewise function. It applies different calculations to the input `x` based on professor conditions.
 #'

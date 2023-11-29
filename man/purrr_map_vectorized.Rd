@@ -13,7 +13,7 @@ purrr_map_vectorized(x)
 A numeric vector where each element is the result of applying `non_vectorized_function` to the corresponding element of `x`.
 }
 \description{
-This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `purrr::map_dbl` function.`non_vectorized_function` must be defined and takes a single numeric value as input.
+Vectorize a Function Using `purrr::map_dbl`
 }
 \examples{
 # Assuming non_vectorized_function is defined and takes a single numeric value
@@ -21,4 +21,9 @@ test_vector <- 1:10
 result <- purrr_map_vectorized(test_vector)
 print(result)
 
+}
+\author{
+Samy Maurer
+
+This function vectorizes a non-vectorized function by applying it to each element of a numeric vector `x` using the `purrr::map_dbl` function.`non_vectorized_function` must be defined and takes a single numeric value as input.
 }

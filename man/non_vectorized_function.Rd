@@ -19,7 +19,7 @@ The function returns a numeric value with those conditions:
 - 0 if `x > 20`
 }
 \description{
-This function is a non-vectorized implementation of a piecewise function. It applies different calculations to the input `x` based on professor conditions.
+Non-Vectorized Piecewise Function
 }
 \examples{
 result1 <- non_vectorized_function(-1)
@@ -29,4 +29,9 @@ print(result1)
 print(result2)
 print(result3)
 
+}
+\author{
+Samy Maurer
+
+This function is a non-vectorized implementation of a piecewise function. It applies different calculations to the input `x` based on professor conditions.
 }

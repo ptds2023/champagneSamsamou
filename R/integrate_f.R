@@ -1,4 +1,5 @@
-#' Compute the Integral of a Vectorized Function
+#' @title Computation of the integral of a Vectorized Function
+#' @author Samy Maurer
 #'
 #' This function computes the integral of the `logical_index_vectorized` function over a specified interval [a, b]. It uses the `integrate` function from R.
 #'

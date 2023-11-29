@@ -13,11 +13,16 @@ for_loop_vectorized(x)
 A numeric vector of the same length as `x`, where each element is the result of applying `non_vectorized_function` to the corresponding element of `x`.
 }
 \description{
-This function applies a non-vectorized function `non_vectorized_function` to each element of a vector `x` using a for loop, effectively vectorizing the operation.
+Vectorized Function Using For Loop
 }
 \examples{
 test_vector <- 1:10
 result <- for_loop_vectorized(test_vector)
 print(result)
 
+}
+\author{
+Samy Maurer
+
+This function applies a non-vectorized function `non_vectorized_function` to each element of a vector `x` using a for loop, effectively vectorizing the operation.
 }

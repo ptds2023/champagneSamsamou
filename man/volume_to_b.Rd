@@ -2,7 +2,7 @@
 % Please edit documentation in R/volume_to_b.R
 \name{volume_to_b}
 \alias{volume_to_b}
-\title{Calculate Adjusted Volume Up to a Limit `b`}
+\title{Calculate Adjusted Volume Up to a Limit `b` that we want to find out}
 \usage{
 volume_to_b(b)
 }
@@ -13,11 +13,16 @@ volume_to_b(b)
 The adjusted volume of champagne in the glass up to the fill level `b`, subtracting a constant of 200.
 }
 \description{
-This function computes the volume of Champagne in a glass for an upper limit `b`, with a constant factor. It integrates the square of the `logical_index_vectorized` function times `pi` over the interval [10, b] and subtracts 200 from the result.
+Calculate Adjusted Volume Up to a Limit `b` that we want to find out
 }
 \examples{
 # Example: Calculate the volume for b = 15
 volume <- volume_to_b(15)
 print(volume)
 
+}
+\author{
+Samy Maurer
+
+This function computes the volume of Champagne in a glass for an upper limit `b`, with a constant factor. It integrates the square of the `logical_index_vectorized` function times `pi` over the interval [10, b] and subtracts 200 from the result.
 }
