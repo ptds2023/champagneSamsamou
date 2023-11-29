@@ -1,4 +1,4 @@
-# champagneSamsamou
+# My Package : champagneSamsamou
 
 champagneSamsamou is an R package developed as part of a homework assignment, designed to provide tools for calculating the volume of champagne in glasses and for simulating party scenarios to manage champagne effectively. The package demonstrates various vectorization methods and numerical integration techniques in R.
 
@@ -17,13 +17,16 @@ Numerical Integration: Apply numerical integration methods to calculate volumes.
 ## Installation
 To install the latest version of champagneSamsamou from GitHub, use:
 
+```r
 install.packages("devtools")
 devtools::install_github("Samsaou/champagneSamsamou")
+```
 
 
 ## Usage
 Here's a basic example of how to use champagneSamsamou:
 
+```r
 library(champagneSamsamou)
 
 # Example of using a vectorization function
@@ -32,9 +35,7 @@ result <- for_loop_vectorized(1:10)
 # Calculate the volume for a specific glass size
 volume <- volume_to_b(15)
 
-# Simulate champagne requirements for a party
-party_simulation <- simulate_party(...)
-Replace simulate_party(...) with actual parameters as per your function's definition.
+```
 
 # Contributing
 Contributions to my package are welcome. Please ensure that your code adheres to the project's style and standards.
