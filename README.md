@@ -1,6 +1,6 @@
 # My Package : champagneSamsamou
 
-champagneSamsamou is an R package developed as part of a homework assignment, designed to provide tools for calculating the volume of champagne in glasses and for simulating party scenarios to manage champagne effectively. The package demonstrates various vectorization methods and numerical integration techniques in R.
+`champagneSamsamou` is an R package developed as part of a homework assignment, designed to provide tools for calculating the volume of champagne in glasses and for simulating party scenarios to manage champagne effectively afterwards. The package demonstrates various vectorization methods and numerical integration techniques in R.
 
 ## Objectives
 The primary objectives of this package include:
@@ -15,7 +15,7 @@ The package comprises several functions, each demonstrating a unique approach to
 - Numerical Integration: Apply numerical integration methods to calculate volumes.
 
 ## Installation
-To install champagneSamsamou, you need to have R installed on your machine. If you don't have R, you can download it from CRAN.
+To install `champagneSamsamou`, you need to have R installed on your machine. If you don't have R, you can download it from CRAN.
 
 Once R is installed, you can install `champagneSamsamou` from GitHub using the devtools package. If you don't have `devtools` installed, you can install it by running:
 
