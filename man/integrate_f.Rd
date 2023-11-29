@@ -21,5 +21,4 @@ This function computes the integral of the `logical_index_vectorized` function o
 # Example: Compute the integral from 10 to 20
 result <- integrate_f(10, 20)
 print(result)
-
 }
