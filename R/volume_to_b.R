@@ -11,6 +11,8 @@
 #' volume <- volume_to_b(15)
 #' print(volume)
 #'
+#' @importFrom stats integrate
+#'
 #' @export
 volume_to_b <- function(b) {
   integrate(function(x) pi * logical_index_vectorized(x)^2, lower = 10, upper = b)$value - 200

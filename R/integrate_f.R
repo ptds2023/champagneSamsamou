@@ -11,7 +11,7 @@
 #' # Example: Compute the integral from 10 to 20
 #' result <- integrate_f(10, 20)
 #' print(result)
-#'
+#' @importFrom stats integrate
 #' @export
 integrate_f <- function(a, b) {
   integrate(logical_index_vectorized, lower = a, upper = b)$value
