@@ -22,6 +22,10 @@
 #'
 #' @export
 non_vectorized_function <- function(x) {
+  if (!is.numeric(x)) {
+    stop("Input must be numeric")
+  }
+
   if (x < 0) {
     return(0)
   } else if (x < 0.5) {

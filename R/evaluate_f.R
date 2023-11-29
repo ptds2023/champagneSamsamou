@@ -14,9 +14,7 @@
 #'
 #' @export
 evaluate_f <- function(x) {
-  # Evaluate the function for the input vector
   values <- logical_index_vectorized(x)
-  # Set the class of the result
   class(values) <- 'evaluation_of_f'
   return(values)
 }
